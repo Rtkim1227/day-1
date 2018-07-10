@@ -1,16 +1,73 @@
-h1 {
-    font-size: 144px;
-    color: rgb(45,60,20);
- }
-
- h5 {
- 	font-family: 'Comic Sans MS';
- 	font-size: 68px;
- 	color: rgb(2,390,8);
-
- }
-
-p {
-	font-size: 60px;
-	color: rgb(499,8,67);
+html {
+	font-family: sans-serif();
+	font-size: 24px;
 }
+
+header { 
+	background-color: lightblue;
+	grid-column: span 3;
+	padding: 16;
+}
+
+ nav {
+ 	background-color: violet;
+	padding: 16;
+ }
+
+ main {
+ 	background-color: green;
+	padding: 16;
+ }
+
+ aside {
+ 	background-color: pink;
+	padding: 16;
+ }
+
+ footer {
+ 	background-color: gold;
+ 	grid-column: span 3;
+	padding: 16;
+ }
+
+.container {
+	border: 1px solid rgba(0,0,0,0.4);
+	display: grid;
+	min-height: 100vh;
+
+	grid-template-columns: 20% auto 20%;
+	grid-template-rows: auto 1fr auto
+}
+
+
+/*div {
+	border: 15px solid blue;
+	padding: 50px;
+	margin: 80px;
+	
+}
+
+p{
+	max-width: 5000px;
+}
+
+#thoughts {
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	text-align: center;
+}
+
+.trees-background {
+	background-image: url(yes.jpg);
+}
+
+#yuh {
+	text-align: center;
+}
+
+#Intro {
+	font-size: 85px;
+	text-align: center;
+}
+*/
+
