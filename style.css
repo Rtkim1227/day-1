@@ -1,33 +1,50 @@
 html {
-	font-family: sans-serif();
+	font-family: sans-serif;
 	font-size: 24px;
 }
 
 header { 
-	background-color: lightblue;
+	background-color: white;
 	grid-column: span 3;
 	padding: 16px;
+	font-size: 50px;
+	text-align: center;
+	font-family: Trebuchet MS;
 }
 
  nav {
- 	background-color: violet;
+ 	background-color: red;
 	padding: 16px;
+	font-size: 28;
+	text-align: center;
+	font-family: Trebuchet MS;
+
  }
 
  main {
- 	background-color: green;
+ 	background-color: gray;
 	padding: 16px;
+	font-size: 25px;
+	text-align: center;
+	font-family: Trebuchet MS;
  }
 
  aside {
- 	background-color: pink;
+ 	background-color: red;
 	padding: 16px;
+	font-size:25px;
+	text-align: left;
+	font-family: Trebuchet MS;
+
  }
 
  footer {
- 	background-color: gold;
+ 	background-color: white;
  	grid-column: span 3;
 	padding: 16px;
+	text-align: center;
+	font-family: Trebuchet MS;
+	color: lightblue;
  }
 
 .container {
@@ -39,6 +56,9 @@ header {
 	grid-template-rows: auto 1fr auto;
 }
 
+.Gen {
+	text-align: center;
+}
 
 /*div {
 	border: 15px solid blue;
