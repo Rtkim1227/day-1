@@ -1,4 +1,16 @@
 h1 {
     font-size: 144px;
-    color: rbg(100,0,0);
+    color: rgb(45,60,20);
  }
+
+ h5 {
+ 	font-family: 'Comic Sans MS';
+ 	font-size: 68px;
+ 	color: rgb(2,390,8);
+
+ }
+
+p {
+	font-size: 60px;
+	color: rgb(499,8,67);
+}
